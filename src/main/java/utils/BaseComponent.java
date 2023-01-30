@@ -12,7 +12,7 @@ public class BaseComponent {
 	@BeforeClass
 	public void setup() {
 		//RestAssured.baseURI = "https://keytodorestapi.herokuapp.com/";
-		RestAssured.baseURI = "https://keytrcrud.herokuapp.com/";
+		RestAssured.baseURI = "https://keytrcrud.herokuapp.com/api/users";
 
 	}
 	
