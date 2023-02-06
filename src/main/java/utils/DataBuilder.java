@@ -32,5 +32,17 @@ public class DataBuilder {
 		
 	}
 	
+	public static JSONObject buildToken() {
+		
+		JSONObject body = new JSONObject();
+		body.put("username", "admin");
+		body.put("password", "password123");
+		
+		return body;
+	}
+	
+	
+	
+	
 	
 }
